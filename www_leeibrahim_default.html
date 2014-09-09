@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html class=" js no-flexbox flexbox-legacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title> UI/ UX Designer, Front-end and Back-end developer</title>
+
+
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>	
+
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="uthaman, Web designer, UI designer, User intrface designer, HTML5, CSS, CSS3, Web designer Cochin,JavaScript, Front End Developer, SEO, jQuery, Cross Browser Support, Usability, Tableless CSS Development,  Web Designer Ernakulam, Accessibility, web 2.0, FBML Designer, website design, website development, web designer portfolio, freelance web &amp; ui designer">
+<meta name="author" content="Naveen TR">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/css.css" rel="stylesheet" type="text/css">
+
+<!-- Le fav and touch icons -->
+
+<link rel="icon" 
+      type="image/png" 
+      href="images/favicon.ico">
+<!-- Main Style -->
+<link href="css/main.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="css/jquery.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="css/fonts.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="css/responsive.css" rel="stylesheet">
+
+<!-- Modernizr -->
+<script src="js/placeholder.js"></script><script src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<!--contact form-->
+<script>
+$(document).ready(function(){
+  $("#ajax-contact-form").submit(function(){
+   var str = $(this).serialize();
+  $.ajax({
+     type: "POST",
+     url:"submit-contact-us.php",
+     data: str,
+     success:function(result) {
+        $("#feedbackmsg").html(result);
+		if (result.indexOf("@@success") >= 0){
+			$('#ajax-contact-form').trigger("reset");
+		}
+     }
+  });
+  return false;
+ });
+});
+</script>
+
+<style type="text/css">
+
+.cssreel{
+position:absolute;
+top:200px;
+right:0px;
+z-index:999;
+}
+.cssreel a{
+width:65px;
+height:85px;
+text-indent:-9000px;
+display:block;
+background:url(images/nominee4.png) no-repeat;
+}
+</style>
+
+<!--/contact form-->
+
+</head>
+
+<body style="display: block;" id="home">
+
+<div class="cssreel"><a href="http://cssreel.com/Website/ui-ux-designer" target="_blank"></a> </div>
+
+<!-- Fixed navbar -->
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <div class="socialmedia"> 
+        <a href="https://www.facebook.com/leeibrah" target="_blank"><img src="images/facebook.png" alt="Facebook" ></a> 
+        <a href="https://twitter.com/leeibrah" target="_blank"><img src="images/twitter.png" alt="twitter" ></a> 
+        <a href="https://plus.google.com/u/0/" target="_blank"><img src="images/google-plus.png" alt="google plus" ></a> 
+        <a href="http://linkedin.com/in/leeibrahim" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a> 
+        <!-- <a href="https://www.behance.net/uthaman" target="_blank"><img src="images/behance.png" alt="behance" ></a> -->
+      </div>
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <div class="nav-collapse collapse">
+        <ul class="nav text-center">
+          <li><a href="www_leeibrahim_default.html#home">Home</a></li>
+          <li><a href="www_leeibrahim_default.html#skills">Skills</a></li>
+          <li><a href="www_leeibrahim_default.html#work">Works</a></li>
+          <li><a href="www_leeibrahim_default.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse --> 
+    </div>
+  </div>
+</div>
+
+<!--banner-->
+
+<div class="row-fluid">
+  <div class="container">
+    <div class="row-fluid">
+   <div class="span12" style="margin-bottom:140px;">
+    <div class="span4"></div>
+   
+    <div class="span5 hello">
+   
+   
+   <h1 class="hlo"> Holla !</h1>
+   <h4 class="iam">I' am Lee Ibrahim</h4>
+   <p class="lft">Web UI/UX Designer - Front-end Developer - Back-end developer.</p>
+   
+   
+  
+   <a  href="download/leeibrahim-resume.pdf" target="_blank" class="resume">RESUME</a>
+   </div>
+    <div class="span4"></div>
+   </div> </div>
+   
+   
+   
+    
+    
+  </div>
+</div>
+
+<!--/banner--> 
+
+<!--skills-->
+
+<div class="row-fluid" id="skills">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span12 titlebg marginspace2" style="margin-bottom:50px;">
+        <h2 class="skills">Skills</h2>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span12 skillsection">
+        <div class="span3">
+          <ul>
+            <li>User Interface Design</li>
+            <li>Front/Back end Development</li>
+            <li>Website Design</li>
+            <li>Application Design</li>
+            <li>Branding / Logo Design</li>
+            <li>Posters / Business Cards</li>
+            <li>Mobile Development</li>
+          </ul>
+        </div>
+        <div class="span6"><a class=" skillsimg skillpic"> </a></div>
+        <div class="span3">
+          <ul>
+            <li>PHP(Laravel Framework)</li>
+            <li>Python Programming</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Payment Integration</li>
+            <li>REST API Integration</li>
+            <li>Android / SMS / USSD</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--/skills--> 
+
+<!--works--> 
+
+<!-- Our Work Section -->
+<div id="work" class="page">
+  <div class="container"> 
+    <!-- Title Page -->
+    <div class="row-fluid">
+      <div class="span12 marginspace">
+        <div class="title-page">
+          <div class="titlebg" style="margin-bottom:50px;margin-top:50px;">
+            <h3 class="workss">Works</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Title Page --> 
+    
+    <!-- Portfolio Projects -->
+    <div class="row">
+      <div class="span12 clearfix"> 
+        <!-- Filter -->
+        <nav id="options" class="work-nav">
+          <ul id="filters" class="option-set" data-option-key="filter">
+            <li><a href="www_leeibrahim_default.html#filter" data-option-value="*" class="selected">All Projects</a></li>
+            <li><a href="www_leeibrahim_default.html#filter" data-option-value=".webdesign">Website Designs</a></li>
+            <li><a href="www_leeibrahim_default.html#filter" data-option-value=".logodesign">General Designs</a></li>
+            <li><a href="www_leeibrahim_default.html#filter" data-option-value=".responsive">Web Platforms</a></li>
+            <li><a href="www_leeibrahim_default.html#filter" data-option-value=".mobile">Mobile Applications</a></li>
+          </ul>
+        </nav>
+        <!-- End Filter --> 
+      </div>
+      <div class="span12 clearfix">
+      
+   
+        <div class="row">
+          <section class="isotope" style="position: relative; overflow: hidden; height: 1326px;" id="projects">
+            <ul id="thumbs">
+              
+              <!-- Item Project and Filter Name -->
+ 
+              <!-- End Item Project --> 
+              
+                
+              <!-- Item Project and Filter Name -->
+              <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(900px, 219px, 0px);" class="item-thumbs span3 webdesign isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="leyanengineering" href="images/mafundis-front.png"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/mafundis-front.png" alt="http://www.mafundis.com"> </li>
+              <!-- End Item Project --> 
+              
+              
+              
+              
+              
+              <!-- Item Project and Filter Name -->
+              <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 0px, 0px);" class="item-thumbs span3 webdesign isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Spartlink" href="images/leeibrahim-front.png"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/leeibrahim-front.png" alt="http://www.leeibrahim.com/"> </li>
+              <!-- End Item Project --> 
+              
+              <!-- Item Project and Filter Name -->
+              <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 0px, 0px);" class="item-thumbs span3 webdesign isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Pursuitgame" href="images/trascope-front.png"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/trascope-front.png" alt="http://trascope.com/"> </li>
+                             
+              <!-- End Item Project --> 
+              
+              <!-- Item Project and Filter Name -->
+              <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(900px, 0px, 0px);" class="item-thumbs span3 webdesign isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="protien pouder" title="Big and fit" href="images/bookcheetah-front.png"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/bookcheetah-front.png" alt="http://demo1.alwafaagroup.com/bigandfit/index.php" >  </li>
+              <!-- End Item Project --> 
+              
+              <!-- Item Project and Filter Name -->
+              <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 219px, 0px);" class="item-thumbs span3 webdesign isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Builders" href="images/fireside-front.png"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/fireside-front.png" alt="webdesign"> </li>
+                
+              <!-- End Item Project --> 
+              
+              <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);" class="item-thumbs span3 webdesign isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="tourism" href="images/reachout-front.png"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/reachout-front.png" alt="reachout.or.ke"> </li>
+              
+              <!-- Item Project and Filter Name -->
+              <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 219px, 0px);" class="item-thumbs span3 webdesign isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Dar-optics" href="images/loyaldigital-front.png"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/loyaldigital-front.png" alt="http://www.loyaldigital.com/"> </li>
+              <!-- End Item Project --> 
+              
+              <!-- Item Project and Filter Name -->
+              <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 219px, 0px);" class="item-thumbs span3 webdesign isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Viglim" href="images/survivors-front.png"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/survivors-front.png" alt="http://survivors.or.ke"> </li>
+              <!-- End Item Project --> 
+            
+              
+              <!-- Item Project and Filter Name -->
+              <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 438px, 0px);" class="item-thumbs span3 webdesign isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Jazp" href="images/trascope-front.png"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/trascope-front.png" alt="http://trascope.com"> </li>
+              <!-- End Item Project --> 
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <!-- Item Project and Filter Name -->
+              <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 438px, 0px);" class="item-thumbs span3 webdesign responsive isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="INFOPOOL" href="images/mafundis-app.png"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/mafundis-app.png" alt="webdesign"> </li>
+                
+                
+                      <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 438px, 0px);" class="item-thumbs span3 webdesign responsive isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="BIG DREAMZ" href="images/carta-app.png"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/carta-app.png" alt="webdesign"> </li>
+                      <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 438px, 0px);" class="item-thumbs span3 webdesign responsive isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="HUNGRY ONE" href="images/insite-front.png"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/insite-front.png" alt="webdesign"> </li>
+                
+                
+                      <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 438px, 0px);" class="item-thumbs span3 webdesign responsive isotope-item"> 
+                 <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="FORSIGHT CONSULTANTS" href="images/image-03.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/image-03.jpg" alt="webdesign"> </li>
+                
+                
+                
+                      <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 438px, 0px);" class="item-thumbs span3 webdesign responsive isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="MARIAN McHALE" href="images/image-04.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/image-04.jpg" alt="webdesign"> </li>
+                
+                
+                
+              <!-- End Item Project --> 
+              
+              <!-- Item Project and Filter Name -->
+              <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 438px, 0px);" class="item-thumbs span3 webdesign isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                  <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="CASINO PARTY PRODUCTION" href="images/image-19.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/image-19.jpg" alt="webdesign"> </li>
+                
+              
+              <!-- Item Project and Filter Name -->
+              <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(900px, 438px, 0px);" class="item-thumbs span3 logodesign isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="ELLS" href="images/logo-onlineshop.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/logo-onlineshop.jpg" alt="logodesign"> </li>
+              <!-- End Item Project --> 
+              
+              <!-- Item Project and Filter Name -->
+              <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 657px, 0px);" class="item-thumbs span3 logodesign isotope-item"> 
+                <!-- Fancybox - Gallery Enabled - Title - Full Image --> 
+                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="HUNGRY ONE" href="images/logo-jazp.jpg"> <span class="overlay-img"></span> <span class="overlay-img-thumb font-icon-plus"></span> </a> 
+                <!-- Thumb Image and Description --> 
+                <img src="images/logo-jazp.jpg" alt="logodesign"> </li>
+              <!-- End Item Project --> 
+              
+            
+              <!-- End Item Project -->
+              
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- End Portfolio Projects --> 
+  </div>
+</div>
+<!-- End Our Work Section --> 
+
+<!--/works--> 
+
+<!--contact-->
+
+<div class="row-fluid" id="contact">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span12 titlebg marginspace"  style="margin-bottom:50px;margin-top:50px;">
+        <h4 class="contactt">Contact</h4>
+      </div>
+    </div>
+    <div class="row-fluid">
+      
+      <div class="span12">
+        <div class="span4 ftdetl"> <img src="images/icn-hm.png"  alt="fb-icon">Kenya</div>
+      <div class="span4 ftdetl"><img src="images/ic-mob.png"  alt="mob-icon">+254 714 019 079</div>
+      <div class="span4 ftdetl"><img src="images/icn-msg.png"  alt="msg-icon">contact@leeibrahim.com
+      </div>
+    
+      
+      
+      
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--/contact--> 
+
+<!--footer-->
+
+<div class="row-fluid contact">
+  <div class="container">
+    <div class="span12 text-center copyright">Copyright © 2014 www.leeibrahim.com. All rights reserved.</div>
+  </div>
+</div>
+
+<!--/footer--> 
+
+<script src="js/bootstrap_002.js"></script> 
+
+<!-- Js --> 
+
+<script src="js/bootstrap.js"></script> <!-- Bootstrap --> 
+<script src="js/supersized.js"></script> <!-- Slider --> 
+<script src="js/waypoints.js"></script> <!-- WayPoints --> 
+<script src="js/waypoints-sticky.js"></script> <!-- Waypoints for Header --> 
+<script src="js/jquery_003.js"></script> <!-- Isotope Filter --> 
+<script src="js/jquery_002.js"></script> <!-- Fancybox --> 
+<script src="js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi --> 
+<script src="js/main.js"></script> <!-- Default JS --> 
+<!-- End Js --> 
+
+<!-- Custom JavaScript for the Side Menu and Smooth Scrolling --> 
+<script>
+        $("#menu-close").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script> 
+<script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script> 
+<script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+<div id="supersized-loader"></div>
+<ul style="visibility: hidden;" class="quality" id="supersized">
+  <li class="slide-0 image-loading activeslide"><a target="_blank"><img src="images/image01.htm"></a></li>
+  <li class="slide-1 image-loading"><a target="_blank"><img src="images/image02.htm"></a></li>
+  <li class="slide-2"></li>
+  <li class="slide-3 image-loading prevslide"><a target="_blank"><img src="images/image04.htm"></a></li>
+</ul>
+</body>
+</html>
